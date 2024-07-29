@@ -6,7 +6,7 @@ module sevensegdec(
 always_comb
 begin
 	case (d)
-      				      //abcdefgh
+      			  //abcdefgh
             4'b0000: o = 8'b11111100; //0
             4'b0001: o = 8'b01100000; //1
             4'b0010: o = 8'b11011010; //2
